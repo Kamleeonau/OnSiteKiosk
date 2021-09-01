@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GYCT1801</Machine>
+    <WindowsUser>pprice</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>7acd2f74-b62d-4dbb-a73f-31ef89e95a0c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pprice</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A53DF10805AC361ABEA49BC8E4992B024DC8DEF5CD8A1FD52E8CF108C3689014</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7acd2f74-b62d-4dbb-a73f-31ef89e95a0c_1.0.8.0_x64__53rjc4zddenej</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7acd2f74-b62d-4dbb-a73f-31ef89e95a0c_53rjc4zddenej!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7acd2f74-b62d-4dbb-a73f-31ef89e95a0c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pprice</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.8.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-28T04:39:36.035</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Assets\passlogo.png">
+      <PackagePath>Assets\passlogo.png</PackagePath>
+      <Modified>2020-07-16T00:41:33.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2020-02-27T09:17:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\OnSite Kiosk.dll">
+      <PackagePath>OnSite Kiosk.dll</PackagePath>
+      <Modified>2020-10-28T04:39:34.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\OnSite Kiosk.exe">
+      <PackagePath>OnSite Kiosk.exe</PackagePath>
+      <Modified>2020-10-28T04:39:35.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\OnSite Kiosk.pdb">
+      <PackagePath>OnSite Kiosk.pdb</PackagePath>
+      <Modified>2020-10-28T04:39:35.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-10-28T04:38:24.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\gyc.png">
+      <PackagePath>UI\Assets\gyc.png</PackagePath>
+      <Modified>2012-09-03T23:11:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>UI\Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>UI\Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>UI\Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>UI\Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\StoreLogo.png">
+      <PackagePath>UI\Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\UI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>UI\Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-06T03:39:57.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Util\Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\netstandard.dll">
+      <PackagePath>Util\netstandard.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\Newtonsoft.Json.dll">
+      <PackagePath>Util\Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T13:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\Newtonsoft.Json.xml">
+      <PackagePath>Util\Newtonsoft.Json.xml</PackagePath>
+      <Modified>2019-11-08T13:51:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\PassPrint.exe">
+      <PackagePath>Util\PassPrint.exe</PackagePath>
+      <Modified>2020-08-04T07:03:32.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\PassPrint.exe.config">
+      <PackagePath>Util\PassPrint.exe.config</PackagePath>
+      <Modified>2020-07-17T02:05:31.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\PassPrint.pdb">
+      <PackagePath>Util\PassPrint.pdb</PackagePath>
+      <Modified>2020-08-04T07:03:32.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\QrCodeGenerator.dll">
+      <PackagePath>Util\QrCodeGenerator.dll</PackagePath>
+      <Modified>2020-07-05T09:41:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.AppContext.dll">
+      <PackagePath>Util\System.AppContext.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Collections.Concurrent.dll">
+      <PackagePath>Util\System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Collections.dll">
+      <PackagePath>Util\System.Collections.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Collections.NonGeneric.dll">
+      <PackagePath>Util\System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Collections.Specialized.dll">
+      <PackagePath>Util\System.Collections.Specialized.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ComponentModel.dll">
+      <PackagePath>Util\System.ComponentModel.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>Util\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ComponentModel.Primitives.dll">
+      <PackagePath>Util\System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>Util\System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Console.dll">
+      <PackagePath>Util\System.Console.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Data.Common.dll">
+      <PackagePath>Util\System.Data.Common.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.Contracts.dll">
+      <PackagePath>Util\System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.Debug.dll">
+      <PackagePath>Util\System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>Util\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.Process.dll">
+      <PackagePath>Util\System.Diagnostics.Process.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.StackTrace.dll">
+      <PackagePath>Util\System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>Util\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.Tools.dll">
+      <PackagePath>Util\System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.TraceSource.dll">
+      <PackagePath>Util\System.Diagnostics.TraceSource.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Diagnostics.Tracing.dll">
+      <PackagePath>Util\System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Drawing.Common.dll">
+      <PackagePath>Util\System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T09:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Drawing.Primitives.dll">
+      <PackagePath>Util\System.Drawing.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Dynamic.Runtime.dll">
+      <PackagePath>Util\System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Globalization.Calendars.dll">
+      <PackagePath>Util\System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Globalization.dll">
+      <PackagePath>Util\System.Globalization.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Globalization.Extensions.dll">
+      <PackagePath>Util\System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.Compression.dll">
+      <PackagePath>Util\System.IO.Compression.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.Compression.ZipFile.dll">
+      <PackagePath>Util\System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.dll">
+      <PackagePath>Util\System.IO.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.FileSystem.dll">
+      <PackagePath>Util\System.IO.FileSystem.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>Util\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>Util\System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>Util\System.IO.FileSystem.Watcher.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.IsolatedStorage.dll">
+      <PackagePath>Util\System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>Util\System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.Pipes.dll">
+      <PackagePath>Util\System.IO.Pipes.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>Util\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Linq.dll">
+      <PackagePath>Util\System.Linq.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Linq.Expressions.dll">
+      <PackagePath>Util\System.Linq.Expressions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Linq.Parallel.dll">
+      <PackagePath>Util\System.Linq.Parallel.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Linq.Queryable.dll">
+      <PackagePath>Util\System.Linq.Queryable.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Http.dll">
+      <PackagePath>Util\System.Net.Http.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.NameResolution.dll">
+      <PackagePath>Util\System.Net.NameResolution.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.NetworkInformation.dll">
+      <PackagePath>Util\System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Ping.dll">
+      <PackagePath>Util\System.Net.Ping.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Primitives.dll">
+      <PackagePath>Util\System.Net.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Requests.dll">
+      <PackagePath>Util\System.Net.Requests.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Security.dll">
+      <PackagePath>Util\System.Net.Security.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.Sockets.dll">
+      <PackagePath>Util\System.Net.Sockets.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.WebHeaderCollection.dll">
+      <PackagePath>Util\System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.WebSockets.Client.dll">
+      <PackagePath>Util\System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Net.WebSockets.dll">
+      <PackagePath>Util\System.Net.WebSockets.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ObjectModel.dll">
+      <PackagePath>Util\System.ObjectModel.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Reflection.dll">
+      <PackagePath>Util\System.Reflection.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Reflection.Extensions.dll">
+      <PackagePath>Util\System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Reflection.Primitives.dll">
+      <PackagePath>Util\System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Resources.Reader.dll">
+      <PackagePath>Util\System.Resources.Reader.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Resources.ResourceManager.dll">
+      <PackagePath>Util\System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Resources.Writer.dll">
+      <PackagePath>Util\System.Resources.Writer.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>Util\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.dll">
+      <PackagePath>Util\System.Runtime.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Extensions.dll">
+      <PackagePath>Util\System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Handles.dll">
+      <PackagePath>Util\System.Runtime.Handles.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.InteropServices.dll">
+      <PackagePath>Util\System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>Util\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Numerics.dll">
+      <PackagePath>Util\System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Formatters.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Serialization.Json.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Claims.dll">
+      <PackagePath>Util\System.Security.Claims.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>Util\System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Cryptography.Csp.dll">
+      <PackagePath>Util\System.Security.Cryptography.Csp.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>Util\System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>Util\System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>Util\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.Principal.dll">
+      <PackagePath>Util\System.Security.Principal.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Security.SecureString.dll">
+      <PackagePath>Util\System.Security.SecureString.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Text.Encoding.dll">
+      <PackagePath>Util\System.Text.Encoding.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Text.Encoding.Extensions.dll">
+      <PackagePath>Util\System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Text.RegularExpressions.dll">
+      <PackagePath>Util\System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.dll">
+      <PackagePath>Util\System.Threading.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.Overlapped.dll">
+      <PackagePath>Util\System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.Tasks.dll">
+      <PackagePath>Util\System.Threading.Tasks.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>Util\System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.Thread.dll">
+      <PackagePath>Util\System.Threading.Thread.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.ThreadPool.dll">
+      <PackagePath>Util\System.Threading.ThreadPool.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Threading.Timer.dll">
+      <PackagePath>Util\System.Threading.Timer.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.ValueTuple.dll">
+      <PackagePath>Util\System.ValueTuple.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.ReaderWriter.dll">
+      <PackagePath>Util\System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.XDocument.dll">
+      <PackagePath>Util\System.Xml.XDocument.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.XmlDocument.dll">
+      <PackagePath>Util\System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.XmlSerializer.dll">
+      <PackagePath>Util\System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.XPath.dll">
+      <PackagePath>Util\System.Xml.XPath.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\System.Xml.XPath.XDocument.dll">
+      <PackagePath>Util\System.Xml.XPath.XDocument.dll</PackagePath>
+      <Modified>2020-07-15T22:43:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x64\Release\ilc\Util\Windows.winmd">
+      <PackagePath>Util\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T06:33:42.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
