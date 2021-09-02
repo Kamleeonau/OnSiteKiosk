@@ -199,8 +199,8 @@
     <Content Include="Assets\passlogo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="UI\Assets\gyc.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="UI\Assets\gyc.png" />
     <Content Include="UI\Assets\LockScreenLogo.scale-200.png" />
     <Content Include="UI\Assets\SplashScreen.scale-200.png" />
     <Content Include="UI\Assets\Square150x150Logo.scale-200.png" />
@@ -208,114 +208,6 @@
     <Content Include="UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="UI\Assets\StoreLogo.png" />
     <Content Include="UI\Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Util\Microsoft.Win32.Primitives.dll" />
-    <Content Include="Util\netstandard.dll" />
-    <Content Include="Util\Newtonsoft.Json.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Util\Newtonsoft.Json.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Util\PassPrint.exe" />
-    <Content Include="Util\PassPrint.pdb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Util\QrCodeGenerator.dll" />
-    <Content Include="Util\System.AppContext.dll" />
-    <Content Include="Util\System.Collections.Concurrent.dll" />
-    <Content Include="Util\System.Collections.dll" />
-    <Content Include="Util\System.Collections.NonGeneric.dll" />
-    <Content Include="Util\System.Collections.Specialized.dll" />
-    <Content Include="Util\System.ComponentModel.dll" />
-    <Content Include="Util\System.ComponentModel.EventBasedAsync.dll" />
-    <Content Include="Util\System.ComponentModel.Primitives.dll" />
-    <Content Include="Util\System.ComponentModel.TypeConverter.dll" />
-    <Content Include="Util\System.Console.dll" />
-    <Content Include="Util\System.Data.Common.dll" />
-    <Content Include="Util\System.Diagnostics.Contracts.dll" />
-    <Content Include="Util\System.Diagnostics.Debug.dll" />
-    <Content Include="Util\System.Diagnostics.FileVersionInfo.dll" />
-    <Content Include="Util\System.Diagnostics.Process.dll" />
-    <Content Include="Util\System.Diagnostics.StackTrace.dll" />
-    <Content Include="Util\System.Diagnostics.TextWriterTraceListener.dll" />
-    <Content Include="Util\System.Diagnostics.Tools.dll" />
-    <Content Include="Util\System.Diagnostics.TraceSource.dll" />
-    <Content Include="Util\System.Diagnostics.Tracing.dll" />
-    <Content Include="Util\System.Drawing.Common.dll" />
-    <Content Include="Util\System.Drawing.Primitives.dll" />
-    <Content Include="Util\System.Dynamic.Runtime.dll" />
-    <Content Include="Util\System.Globalization.Calendars.dll" />
-    <Content Include="Util\System.Globalization.dll" />
-    <Content Include="Util\System.Globalization.Extensions.dll" />
-    <Content Include="Util\System.IO.Compression.dll" />
-    <Content Include="Util\System.IO.Compression.ZipFile.dll" />
-    <Content Include="Util\System.IO.dll" />
-    <Content Include="Util\System.IO.FileSystem.dll" />
-    <Content Include="Util\System.IO.FileSystem.DriveInfo.dll" />
-    <Content Include="Util\System.IO.FileSystem.Primitives.dll" />
-    <Content Include="Util\System.IO.FileSystem.Watcher.dll" />
-    <Content Include="Util\System.IO.IsolatedStorage.dll" />
-    <Content Include="Util\System.IO.MemoryMappedFiles.dll" />
-    <Content Include="Util\System.IO.Pipes.dll" />
-    <Content Include="Util\System.IO.UnmanagedMemoryStream.dll" />
-    <Content Include="Util\System.Linq.dll" />
-    <Content Include="Util\System.Linq.Expressions.dll" />
-    <Content Include="Util\System.Linq.Parallel.dll" />
-    <Content Include="Util\System.Linq.Queryable.dll" />
-    <Content Include="Util\System.Net.Http.dll" />
-    <Content Include="Util\System.Net.NameResolution.dll" />
-    <Content Include="Util\System.Net.NetworkInformation.dll" />
-    <Content Include="Util\System.Net.Ping.dll" />
-    <Content Include="Util\System.Net.Primitives.dll" />
-    <Content Include="Util\System.Net.Requests.dll" />
-    <Content Include="Util\System.Net.Security.dll" />
-    <Content Include="Util\System.Net.Sockets.dll" />
-    <Content Include="Util\System.Net.WebHeaderCollection.dll" />
-    <Content Include="Util\System.Net.WebSockets.Client.dll" />
-    <Content Include="Util\System.Net.WebSockets.dll" />
-    <Content Include="Util\System.ObjectModel.dll" />
-    <Content Include="Util\System.Reflection.dll" />
-    <Content Include="Util\System.Reflection.Extensions.dll" />
-    <Content Include="Util\System.Reflection.Primitives.dll" />
-    <Content Include="Util\System.Resources.Reader.dll" />
-    <Content Include="Util\System.Resources.ResourceManager.dll" />
-    <Content Include="Util\System.Resources.Writer.dll" />
-    <Content Include="Util\System.Runtime.CompilerServices.VisualC.dll" />
-    <Content Include="Util\System.Runtime.dll" />
-    <Content Include="Util\System.Runtime.Extensions.dll" />
-    <Content Include="Util\System.Runtime.Handles.dll" />
-    <Content Include="Util\System.Runtime.InteropServices.dll" />
-    <Content Include="Util\System.Runtime.InteropServices.RuntimeInformation.dll" />
-    <Content Include="Util\System.Runtime.Numerics.dll" />
-    <Content Include="Util\System.Runtime.Serialization.Formatters.dll" />
-    <Content Include="Util\System.Runtime.Serialization.Json.dll" />
-    <Content Include="Util\System.Runtime.Serialization.Primitives.dll" />
-    <Content Include="Util\System.Runtime.Serialization.Xml.dll" />
-    <Content Include="Util\System.Security.Claims.dll" />
-    <Content Include="Util\System.Security.Cryptography.Algorithms.dll" />
-    <Content Include="Util\System.Security.Cryptography.Csp.dll" />
-    <Content Include="Util\System.Security.Cryptography.Encoding.dll" />
-    <Content Include="Util\System.Security.Cryptography.Primitives.dll" />
-    <Content Include="Util\System.Security.Cryptography.X509Certificates.dll" />
-    <Content Include="Util\System.Security.Principal.dll" />
-    <Content Include="Util\System.Security.SecureString.dll" />
-    <Content Include="Util\System.Text.Encoding.dll" />
-    <Content Include="Util\System.Text.Encoding.Extensions.dll" />
-    <Content Include="Util\System.Text.RegularExpressions.dll" />
-    <Content Include="Util\System.Threading.dll" />
-    <Content Include="Util\System.Threading.Overlapped.dll" />
-    <Content Include="Util\System.Threading.Tasks.dll" />
-    <Content Include="Util\System.Threading.Tasks.Parallel.dll" />
-    <Content Include="Util\System.Threading.Thread.dll" />
-    <Content Include="Util\System.Threading.ThreadPool.dll" />
-    <Content Include="Util\System.Threading.Timer.dll" />
-    <Content Include="Util\System.ValueTuple.dll" />
-    <Content Include="Util\System.Xml.ReaderWriter.dll" />
-    <Content Include="Util\System.Xml.XDocument.dll" />
-    <Content Include="Util\System.Xml.XmlDocument.dll" />
-    <Content Include="Util\System.Xml.XmlSerializer.dll" />
-    <Content Include="Util\System.Xml.XPath.dll" />
-    <Content Include="Util\System.Xml.XPath.XDocument.dll" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -396,7 +288,7 @@
       <Version>6.2.10</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.3</Version>
+      <Version>13.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -406,12 +298,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="OnSite Kiosk_TemporaryKey.pfx" />
-    <Content Include="Util\PassPrint.exe.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Util\Windows.winmd">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Util\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

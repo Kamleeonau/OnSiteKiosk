@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnSite Kiosk", "OnSite Kiosk\OnSite Kiosk.csproj", "{C0059870-5CC4-4B40-8CF9-39AE07B4A49B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF03E776-CCE3-4723-937C-681B1000A438} = {AF03E776-CCE3-4723-937C-681B1000A438}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassPrint", "PassPrint\PassPrint.csproj", "{AF03E776-CCE3-4723-937C-681B1000A438}"
 EndProject
